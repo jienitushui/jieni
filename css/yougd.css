@@ -1,0 +1,153 @@
+.r_nav {
+    pointer-events: none;
+    position: fixed;
+    z-index: 3;
+    top: 50%;
+    right: 0;
+    margin-top: -240px;
+    width: 254px;
+    height: 494px;
+    background: url(../image/r_navBg.png) no-repeat top left;
+}
+
+.r_nav .r_dj {
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    z-index: 2;
+    width: 165px;
+    height: 145px;
+    background: url(../image/r_dj.png) no-repeat top center;
+}
+
+.r_nav .r_dj p {
+    display: block;
+    position: absolute;
+    top: 37px;
+    left: 12px;
+    width: 88px;
+    height: 36px;
+    font-size: 14px;
+    text-indent: 2px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #62401b;
+    overflow: hidden;
+}
+
+.r_nav .r_dj p:last-child {
+    top: 57px;
+    display: block;
+}
+
+.r_nav .r_con {
+    pointer-events: auto;
+    position: absolute;
+    top: 160px;
+    left: 85px;
+    list-style: none;
+}
+
+.r_code {
+    position: relative;
+    width: 117px;
+    height: 132px;
+    background: url(../image/rigth_icons.png) no-repeat -243px 0;
+    padding-top: 2px;
+    margin-top: 1px;
+}
+
+.r_wc_yd {
+    position: relative;
+    width: 117px;
+    height: 38px;
+    background: url(../image/rigth_icons.png) no-repeat -243px -134px;
+    margin-top: 1px;
+}
+
+.r_con .r_assBg {
+    display: none;
+    position: absolute;
+    top: -66px;
+    left: -116px;
+    width: 115px;
+    height: 144px;
+    background: url(../image/rigth_icons.png) no-repeat;
+    background-position: 0 -416px;
+    padding-top: 7px;
+}
+
+.r_assBg p {
+    width: 101px;
+    height: 34px;
+    line-height: 17px;
+    color: #dcdcdc;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.r_assBg p span {
+    color: #cd974b;
+}
+
+.r_wc_yd:hover {
+    background: url(../image/rigth_icons.png) no-repeat -243px -172px;
+}
+
+.r_wc_yd:hover .r_assBg {
+    display: block;
+}
+
+.r_burst {
+    position: relative;
+    width: 117px;
+    height: 38px;
+    background: url(../image/rigth_icons.png) no-repeat -122px -120px;
+    margin-top: 1px;
+}
+
+.r_burst:hover {
+    background: url(../image/rigth_icons.png) no-repeat -122px -240px;
+}
+
+.r_burst:hover .r_assBg {
+    display: block;
+}
+
+.r_wc_gzh .r_assBg p {
+    width: 100%;
+}
+
+.r_wc_gzh {
+    position: relative;
+    width: 117px;
+    height: 38px;
+    background: url(../image/rigth_icons.png) no-repeat -122px -120px;
+    margin-top: 1px;
+}
+
+.r_wc_gzh:hover {
+    background: url(../image/rigth_icons.png) no-repeat -122px -240px;
+}
+
+.r_wc_gzh:hover .r_assBg {
+    display: block;
+}
+
+.r_wc_sph  {
+    position: relative;
+    width: 117px;
+    height: 38px;
+    background: url(../image/rigth_icons.png) no-repeat -122px 0;
+    margin-top: 1px;
+}
+
+.r_wc_sph:hover {
+    background: url(../image/rigth_icons.png) no-repeat -122px -42px;
+}
+
+.r_wc_sph:hover .r_assBg {
+    display: block;
+}
